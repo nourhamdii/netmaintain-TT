@@ -1,0 +1,6 @@
+Placez ici vos photos (optionnel, un dégradé bleu est utilisé par défaut) :
+
+  dashboard.jpg   -> bannière du tableau de bord (salle de supervision)
+  tickets.jpg     -> bannière de la page Tickets (pylône télécom)
+  historique.jpg  -> bannière de la page Historique (boîtier fibre)
+  technicien.jpg  -> photo à droite du formulaire "Signaler une panne"

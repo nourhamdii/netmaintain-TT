@@ -1,0 +1,55 @@
+// Données initiales (identiques aux captures d'écran)
+const d = (day, h, m) => new Date(2026, 9, day, h, m).toISOString();
+
+module.exports = [
+  {
+    id: 'TT-2026-105',
+    service: 'Fibre Optique',
+    delegation: 'Bou Hajla',
+    priority: 'Moyenne',
+    description: 'Atténuation anormale détectée sur le boîtier FTTH secteur 3.',
+    status: 'en_cours',
+    createdAt: d(10, 12, 26),
+    resolvedAt: null,
+  },
+  {
+    id: 'TT-2026-104',
+    service: 'Ligne Fixe',
+    delegation: 'Oueslatia',
+    priority: 'Basse',
+    description: 'Ligne fixe muette chez un client professionnel.',
+    status: 'resolu',
+    createdAt: d(8, 13, 6),
+    resolvedAt: d(9, 13, 6),
+  },
+  {
+    id: 'TT-2026-103',
+    service: 'Mobile',
+    delegation: 'Kairouan Nord',
+    priority: 'Haute',
+    description: 'Antenne 4G hors service, perte de couverture sur la zone industrielle.',
+    status: 'en_cours',
+    createdAt: d(10, 9, 30),
+    resolvedAt: null,
+  },
+  {
+    id: 'TT-2026-102',
+    service: 'ADSL',
+    delegation: 'Sbikha',
+    priority: 'Moyenne',
+    description: 'Baisse de débit signalée par plusieurs abonnés du quartier nord.',
+    status: 'resolu',
+    createdAt: d(9, 13, 6),
+    resolvedAt: d(9, 17, 6),
+  },
+  {
+    id: 'TT-2026-101',
+    service: 'Fibre Optique',
+    delegation: 'Kairouan Ville',
+    priority: 'Haute',
+    description: 'Coupure de câble fibre suite à des travaux de voirie, avenue de la République.',
+    status: 'en_cours',
+    createdAt: d(10, 10, 6),
+    resolvedAt: null,
+  },
+];
